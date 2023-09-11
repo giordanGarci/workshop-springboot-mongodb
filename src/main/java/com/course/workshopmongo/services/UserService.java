@@ -29,7 +29,18 @@ public class UserService {
 		return userRepository.insert(obj);
 	}
 	
+	public void delete(String id) {
+		try {
+			if(!userRepository.existsById(id)) throw new ObjectNotFoundException(id);
+			userRepository.deleteById(id);
+		}catch(ObjectNotFoundException e) {
+			throw new ObjectNotFoundException(id);
+		}
+	}
+	
 	public User fromDTO(UserDTO obj) {
 		return new User(obj.getId(), obj.getName(), obj.getEmail());
 	}
+	
+
 }
