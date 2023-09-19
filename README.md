@@ -18,8 +18,8 @@ Neste projeto, desenvolvi uma API RESTful utilizando o Spring Boot, Spring Data 
 Antes de executar o projeto localmente, certifique-se de que você tenha as seguintes ferramentas e recursos instalados:
 
 - [Java](https://www.java.com/pt-BR/download/help/windows_manual_download.html)
-- [Spring Boot]((https://www.devmedia.com.br/primeiros-passos-com-o-spring-boot/33654))
-- [MongoDB]((https://www.devmedia.com.br/introducao-ao-mongodb/30792))
+- [Spring Boot](https://www.devmedia.com.br/primeiros-passos-com-o-spring-boot/33654)
+- [MongoDB](https://www.devmedia.com.br/introducao-ao-mongodb/30792)
 
 
 ## Configuração do Ambiente
